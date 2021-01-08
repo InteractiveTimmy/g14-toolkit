@@ -1,3 +1,7 @@
+# Build data
+build/
+app/
+
 # Logs
 logs
 *.log
