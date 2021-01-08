@@ -1,0 +1,26 @@
+{
+  "name": "g14-toolkit",
+  "version": "0.0.0",
+  "description": "G14 Toolkit",
+  "main": "./app.index.js",
+  "scripts": {
+    "app:build": "electron-builder --config app.build.js",
+    "app:clean": "rimraf ./app",
+    "app:start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InteractiveTimmy/g14-toolkit.git"
+  },
+  "author": "InteractiveTimmy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/InteractiveTimmy/g14-toolkit/issues"
+  },
+  "homepage": "https://github.com/InteractiveTimmy/g14-toolkit#readme",
+  "devDependencies": {
+    "electron": "^11.1.1",
+    "electron-builder": "^22.9.1",
+    "rimraf": "^3.0.2"
+  }
+}
